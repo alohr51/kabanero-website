@@ -56,7 +56,7 @@ if [ "$TRAVIS_EVENT_TYPE" != "pull_request" ]; then
 fi
 
 # Build draft and published blogs
-./scripts/build_clone_blogs.sh
+./scripts/build_clone_blogs.sh $BLOGS_GIT_URL $BLOGS_GIT_REVISION
 
 # Jekyll build
 echo "Building with jekyll..."
