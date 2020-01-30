@@ -1,6 +1,10 @@
 #!/bin/bash
 # Exit immediately if a simple command exits with a non-zero status.
 set -e
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 JEKYLL_BUILD_FLAGS=""
 CONTENT_DIR="src/main/content"
 TARGET_DIR="target"
