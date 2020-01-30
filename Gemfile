@@ -14,8 +14,6 @@ gem "coderay", "~> 1.1"
 
 gem "uglifier", "~> 4.1"
 
-gem "jekyll-minifier", "~> 0.1.10"
-
 gem "octokit", "~> 4.14"
 
 gem "jekyll-assets", "~> 3.0"
